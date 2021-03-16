@@ -1,0 +1,4 @@
+#!/bin/bash
+
+install "$PWD/polybar_trayoffset" "/usr/local/bin/"
+install "$PWD/watchps_tray" "/usr/local/bin/"
