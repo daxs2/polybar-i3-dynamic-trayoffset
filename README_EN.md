@@ -45,7 +45,7 @@ Notice how the tray is out of position. The module is positioned to the right of
 </table>
 </div>
 
-5. Now that the module is exactly in the position which tray is inovked by Polybar, we must, manually, set up *hooks* for every program that would use the tray. Let's say that ```qbittorrent``` (a Qt-based torrent client) wants to use some space in our traybar. Then we'd need to add the following statement in our i3wm's config file:
+5. Now that the module is exactly in the position where tray is invoked by Polybar, we must, manually, set up *hooks* for every program that would use the tray. Let's say that ```qbittorrent``` (a Qt-based torrent client) wants to use some space in our traybar. Then we'd need to add the following statement in our i3wm's config file:
 
 ```
 for_window [class="qbittorrent"] exec watchps_tray qbittorrent
