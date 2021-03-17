@@ -1,4 +1,4 @@
-# polybar-dynamic-trayoffset
+# polybar-i3-dynamic-trayoffset
 *For an english version of this readme, <a href="https://github.com/daltroaugusto/polybar-dynamic-trayoffset/blob/main/README_EN.md">click here</a>.*
 
 Apenas alguns scripts capazes de criar a experiência de uma "traybar dinâmica" para a Polybar no i3wm, fazendo-a com que se comporte *tipo* um módulo.
