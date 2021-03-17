@@ -1,4 +1,4 @@
-# polybar-dynamic-trayoffset
+# polybar-i3-dynamic-trayoffset
 A bunch of scripts able to create a "dynamic traybar" experience for Polybar in i3wm, making it behave *kinda like* a module.
 
 ## Requirements
