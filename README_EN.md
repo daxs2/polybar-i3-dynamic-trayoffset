@@ -7,7 +7,7 @@ A bunch of scripts able to create a "dynamic traybar" experience for Polybar in 
 3. Install scripts, hooks and module.
 
 ## Installation
-1. Download the latest release and extract to a folder or clone this repository with ```git clone https://github.com/daltroaugusto/polybar-dynamic-centered-tray.git```, then browse to the working folder;
+1. Download the latest release and extract to a folder or clone this repository with ```git clone https://github.com/daltroaugusto/polybar-dynamic-trayoffset.git```, then browse to the working folder;
 2. Run ```sudo ./install``` (installation script with root privileges), or just copy the scripts to a folder in your ```$PATH```;
 3. Insert the ```polybar_trayoffset``` module at the position you prefer, in Polybar config file:
 
