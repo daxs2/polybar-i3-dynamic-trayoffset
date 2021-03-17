@@ -1,5 +1,5 @@
-# polybar-dynamic-centered-tray
-Apenas alguns scripts capazes de criar a experiência de uma "traybar dinâmica" para a Polybar, fazendo-a com que se comporte *tipo* um módulo.
+# polybar-dynamic-trayoffset
+Apenas alguns scripts capazes de criar a experiência de uma "traybar dinâmica" para a Polybar no i3wm, fazendo-a com que se comporte *tipo* um módulo.
 
 ## Requisitos
 1. Versão recente da [Polybar](https://github.com/polybar/polybar/);
