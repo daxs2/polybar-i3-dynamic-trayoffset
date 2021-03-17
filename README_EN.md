@@ -50,7 +50,7 @@ Notice how the tray is out of position. The module is positioned to the right of
 ```
 for_window [class="qbittorrent"] exec watchps_tray qbittorrent
 ```
-This command will make that, each time a window of such that application's class is detected (that will also occupies space in tray), it also starts a process that keeps needed space in the module previously setted up, what will give you a *kinda* dynamic traybar, just as follows:
+This command will make that, for each time a window of such that application's class is detected (that will also occupies space in tray), will also be started an instance of ```watchps_tray``` that keeps needed space in the module previously setted up, what will give you a *kinda* dynamic traybar experience, just as follows:
 
 <div align="center">
 <img src="https://i.imgur.com/GDnAOcw.png" width="800">
