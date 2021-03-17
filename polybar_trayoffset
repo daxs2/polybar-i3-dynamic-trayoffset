@@ -3,9 +3,11 @@
 # Script base que apenas insere e remove caracteres U+2000 (Unicode) no módulo, a fim de dar espaço para a traybar, que já pode ter um offset inicial configurado, a depender da intenção da rice/pessoa.
 # EN: base script which just insert and remove U+2000 (Unicode) characters in the module, giving the needed offset for traybar, that may need some initial offset setted up, depending on ricing/people intentions.
 
-# Daltro Augusto. 2021-. LGPLv2.
+# Daltro Augusto. 2021-. LGPLv2.1.
 
-POLYBAR_TRAYOFFSET=$(<"${HOME}/.config/polybar/.trayoffset")
+! [ -f "$HOME/.config/.trayoffset" ] && touch "$HOME/.config/.trayoffset"
+
+POLYBAR_TRAYOFFSET=$(<"${HOME}/.config/.trayoffset")
 SYNTAX_TEXT="SYNTAX: [ \e[3madd [no. of spaces]\e[0m | \e[3mecho\e[0m | \e[3mremove\e[0m | \e[3mremove-all\e[0m ]"
 
 case $1 in
@@ -20,7 +22,7 @@ case $1 in
 			done
 		fi
 
-		echo "$result" > "${HOME}/.config/polybar/.trayoffset"
+		echo "$result" > "${HOME}/.config/.trayoffset"
 	;;
 
 	echo)
@@ -35,11 +37,11 @@ case $1 in
 
 		result=${i:0:$offset}
 		
-		echo "$result" > "${HOME}/.config/polybar/.trayoffset"
+		echo "$result" > "${HOME}/.config/.trayoffset"
 	;;
 
 	remove-all)
-		echo "" > "${HOME}/.config/polybar/.trayoffset"
+		echo "" > "${HOME}/.config/.trayoffset"
 	;;
 
 	*)

@@ -1,8 +1,8 @@
 #!/bin/bash
 # Este script é para ser hookado no arquivo i3config, usando os seletores for_window do i3wm.
-# EN: script to be hooked in i3config file, with for_window i3wm's selectors.
+# EN: script to be hooked in i3config file, with for_window i3w selectors.
 
-# Daltro Augusto. 2021-. LGPLv2.
+# Daltro Augusto. 2021-. LGPLv2.1.
 
 PS=$1
 polybar_trayoffset add "$2"
