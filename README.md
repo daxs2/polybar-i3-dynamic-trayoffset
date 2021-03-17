@@ -9,7 +9,7 @@ Apenas alguns scripts capazes de criar a experiência de uma "traybar dinâmica"
 3. Instalar os scripts e o módulo corretamente.
 
 ## Instalação
-1. Baixe a release mais recente ou clone este repositório com ```git clone https://github.com/daltroaugusto/polybar-dynamic-centered-tray.git```, depois navegue para a pasta extraída;
+1. Baixe a release mais recente ou clone este repositório com ```git clone https://github.com/daltroaugusto/polybar-dynamic-trayoffset.git```, depois navegue para a pasta extraída;
 2. Execute ```sudo ./install``` (script de instalação com privilégios de superusuário), ou copie os scripts para uma pasta em seu ```$PATH```;
 3. Insira o módulo ```polybar_trayoffset``` na posição em que desejar, no arquivo de configuração da Polybar:
 
