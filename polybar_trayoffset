@@ -2,8 +2,22 @@
 
 # Script base que apenas insere e remove caracteres U+2000 (Unicode) no módulo, a fim de dar espaço para a traybar, que já pode ter um offset inicial configurado, a depender da intenção da rice/pessoa.
 # EN: base script which just insert and remove U+2000 (Unicode) characters in the module, giving the needed offset for traybar, that may need some initial offset setted up, depending on ricing/people intentions.
+# polybar-i3-dynamic-trayoffset A bunch of scripts able to create a "dynamic traybar" experience for Polybar in i3wm, making it behave kinda like a module.
+# Copyright (C) 2020-  Daltro Augusto
 
-# Daltro Augusto. 2021-. LGPLv2.1.
+# This library is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+
+# This library is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# Lesser General Public License for more details.
+
+# You should have received a copy of the GNU Lesser General Public
+# License along with this library; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 
 ! [ -f "$HOME/.config/.trayoffset" ] && touch "$HOME/.config/.trayoffset"
 
