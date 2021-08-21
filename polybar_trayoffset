@@ -2,6 +2,7 @@
 
 # Script base que apenas insere e remove caracteres U+2000 (Unicode) no módulo, a fim de dar espaço para a traybar, que já pode ter um offset inicial configurado, a depender da intenção da rice/pessoa.
 # EN: base script which just insert and remove U+2000 (Unicode) characters in the module, giving the needed offset for traybar, that may need some initial offset setted up, depending on ricing/people intentions.
+
 # polybar-i3-dynamic-trayoffset A bunch of scripts able to create a "dynamic traybar" experience for Polybar in i3wm, making it behave kinda like a module.
 # Copyright (C) 2020-  Daltro Augusto
 
